@@ -21,4 +21,4 @@ Este es un proyecto de página web tributo a las **Hermanas Mirabal**, heroínas
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/homenaje-mirabal.git
+git clone https://github.com/Eldercros01/homenaje-mirabal.git
