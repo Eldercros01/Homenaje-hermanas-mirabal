@@ -1,0 +1,111 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefefe;
+  color: #2a2a2a;
+  line-height: 1.6;
+}
+
+/* Main container */
+#main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(120deg, #a80000, #520000);
+  color: white;
+  border-radius: 10px;
+}
+
+#title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+/* Image section */
+.image-section {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+#img-caption {
+  margin-top: 0.8rem;
+  font-style: italic;
+  color: #444;
+}
+
+/* Content section */
+.content-section {
+  padding: 1rem 0;
+}
+
+.content-section h2 {
+  color: #a80000;
+  margin-bottom: 0.5rem;
+}
+
+.content-section p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+blockquote {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-left: 5px solid #a80000;
+  font-style: italic;
+  margin: 2rem 0;
+}
+
+blockquote span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#tribute-link {
+  color: #a80000;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #a80000;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+#tribute-link:hover {
+  background-color: #a80000;
+  color: white;
+}
